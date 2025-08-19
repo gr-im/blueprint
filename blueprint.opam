@@ -16,6 +16,7 @@ bug-reports: "https://github.com/gr-im/blueprint/issues"
 depends: [
   "dune" {>= "3.19"}
   "ocaml" {>= "5.3.0"}
+  "ppx_expect" {with-test}
   "utop" {with-dev-setup}
   "ocamlformat" {with-dev-setup}
   "ocp-indent" {with-dev-setup}

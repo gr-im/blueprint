@@ -1,0 +1,3 @@
+(library
+ (name eff)
+ (public_name blueprint.eff))

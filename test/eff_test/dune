@@ -1,0 +1,7 @@
+(library
+ (name eff_test)
+ (package blueprint)
+ (inline_tests)
+ (libraries blueprint.eff)
+ (preprocess
+  (pps ppx_expect)))

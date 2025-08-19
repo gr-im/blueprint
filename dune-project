@@ -20,6 +20,9 @@
  (depends
   (ocaml (>= 5.3.0))
 
+  ;; Test depedencies
+  (ppx_expect :with-test)
+
   ;; Dev dependencies
   (utop :with-dev-setup)
   (ocamlformat :with-dev-setup)
