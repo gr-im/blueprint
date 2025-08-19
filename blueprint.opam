@@ -16,7 +16,7 @@ bug-reports: "https://github.com/gr-im/blueprint/issues"
 depends: [
   "dune" {>= "3.19"}
   "ocaml" {>= "5.3.0"}
-  "uotp" {with-dev-setup}
+  "utop" {with-dev-setup}
   "ocamlformat" {with-dev-setup}
   "ocp-indent" {with-dev-setup}
   "merlin" {with-dev-setup}
