@@ -1,3 +1,5 @@
+open Blueprint_engine
+
 class type logger = object
   method log : level:string -> string -> unit
 end

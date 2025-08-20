@@ -1,0 +1,3 @@
+(library
+ (name blueprint_engine)
+ (public_name blueprint.engine))

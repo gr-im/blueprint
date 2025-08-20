@@ -1,7 +1,7 @@
 (library
- (name eff_test)
+ (name engine_test)
  (package blueprint)
  (inline_tests)
- (libraries blueprint.eff)
+ (libraries blueprint.engine)
  (preprocess
   (pps ppx_expect)))
