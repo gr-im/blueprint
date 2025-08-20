@@ -1,3 +1,4 @@
 (library
  (name blueprint_engine)
- (public_name blueprint.engine))
+ (public_name blueprint.engine)
+ (modules_without_implementation specs))
